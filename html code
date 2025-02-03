@@ -1,0 +1,8 @@
+<script src="https://cdn.amplitude.com/script/5fe5d7cd4baec1014e878ca7bca7fd94.js"></script>
+<script>
+    window.amplitude.add(window.sessionReplay.plugin({sampleRate: 1}));
+    window.amplitude.init('5fe5d7cd4baec1014e878ca7bca7fd94', {
+        "fetchRemoteConfig": true,
+        "autocapture": true
+    });
+</script>
